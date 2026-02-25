@@ -16,6 +16,7 @@ int main() {
         if (!(std::cin >> c)) goto error_handler;
 
         // Si llegamos aqui, el calculo se hace bien
+
         total = a * b * c;
         std::cout << "El resultado es: " << total << std::endl;
         
