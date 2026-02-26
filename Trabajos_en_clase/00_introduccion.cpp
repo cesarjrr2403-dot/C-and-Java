@@ -17,7 +17,7 @@ int main() {
 
         // Si llegamos aqui, el calculo se hace bien
 
-        total = a * b * c;
+        total = a * b * c
         std::cout << "El resultado es: " << total << std::endl;
         
         break; // Importante: rompe el bucle al terminar con exito
