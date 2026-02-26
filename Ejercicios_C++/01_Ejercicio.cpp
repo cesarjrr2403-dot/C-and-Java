@@ -5,6 +5,7 @@ int main() {
     int a, b, c, total;
 
     while (true) {
+        
         std::cout << "Introduce el primer entero (a): ";
         if (!(std::cin >> a)) {
             std::cout << "Error: entrada no valida." << std::endl;
